@@ -14,7 +14,7 @@ This is a repo for me to record how to update the firmware and adjust the IP for
     - Linaro Binary Toolchain: Version 7.3-2018.05 7.3.1
 
 ## Preparation
-1. Install the GCC tools that is compatible to Buildroot. \href{}{} **Linaro GCC Version: 7.3-2018.05 7.3.1** will be used, which can download via [Link](https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabihf/) here.
+1. Install the GCC tools that is compatible to Buildroot. **Linaro GCC Version: 7.3-2018.05 7.3.1** will be used, which can download via [Link](https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/arm-linux-gnueabihf/) here.
 2. Download ***gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf.tar.xz*** and put it into this directory: **/opt/**
 3. uncompress the gcc file with:
 ```
