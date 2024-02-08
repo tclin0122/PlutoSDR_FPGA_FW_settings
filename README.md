@@ -25,7 +25,7 @@ This is a repo for me to record how to update the firmware and adjust the IP for
     cd 
     vim ~/.bashrc
 ```
-5. add the Path
+5. add the Path and then source the bashrc file
 ```
     export PATH=/opt/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin:$PATH
 ```
