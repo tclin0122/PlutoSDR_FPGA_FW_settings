@@ -6,12 +6,12 @@ This md file records how to use Vivado to update the FPGA of PlutoSDR
 ## Folder structure in Pluto project inside hdl project
 ```
     .
-├── Makefile               # Automatic script to build the vivado project
-├── system_bd.tcl          # Script to create board design
-├── system_constr.xdc      # Constraints for PlutoSDR
-├── system_project.tcl     # Path and initial setup scripts
-├── system_top.v           # Top design
-└── README.md
+    ├── Makefile               # Automatic script to build the vivado project
+    ├── system_bd.tcl          # Script to create board design
+    ├── system_constr.xdc      # Constraints for PlutoSDR
+    ├── system_project.tcl     # Path and initial setup scripts
+    ├── system_top.v           # Top design
+    └── README.md
 ```
 
 ## Steps
