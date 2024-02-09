@@ -15,9 +15,16 @@ This md file records how to use Vivado to update the FPGA of PlutoSDR
 ```
 
 ## Steps
-1. navigate to the plutosdr-fw repo and dive into HDL folder and the project folder. Find the desire platform, in my case is Pluto
-2. Run the makefile
+1. navigate to the plutosdr-fw repo and dive into HDL folder and the project folder. Find the desire platform, in my case is Pluto [1]
+![Architecture](/image/Screenshot%202024-02-09%20at%2005-33-21%20pluto%20-%20Analog%20Devices%20Inc.%20Transceiver%20Toolbox.png)
+2. Design your customized IP (Matlab HDL compiler or Directly design the HDL)
+3. Connect all the design IO in system_bd.tcl
+4. Run the makefile
 ```
-    make
+    $ make
 ```
-3. 
+ 
+
+
+## Reference
+[1] pluto Reference Design Integration: [URL link](https://analogdevicesinc.github.io/TransceiverToolbox/mkdocs/hdlrefdesigns/pluto/)
